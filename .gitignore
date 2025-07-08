@@ -2,8 +2,11 @@
 /projects
 /statsig
 /todos
+/logs
 
-ClAUDE.md
+.gitignore
+.update.lock
+
 course-update-guide.md
 java-qa-course.md
 spring-ai-course.md
