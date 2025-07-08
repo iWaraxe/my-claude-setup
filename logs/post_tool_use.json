@@ -1,0 +1,298 @@
+[
+  {
+    "session_id": "d1f69332-ec49-4508-9dba-227027eb2bd0",
+    "transcript_path": "/Users/igorwaraxe/.claude/projects/-Users-igorwaraxe--claude/d1f69332-ec49-4508-9dba-227027eb2bd0.jsonl",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "TodoWrite",
+    "tool_input": {
+      "todos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "pending",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "pending",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ]
+    },
+    "tool_response": {
+      "oldTodos": [],
+      "newTodos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "pending",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "pending",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ]
+    }
+  },
+  {
+    "session_id": "d1f69332-ec49-4508-9dba-227027eb2bd0",
+    "transcript_path": "/Users/igorwaraxe/.claude/projects/-Users-igorwaraxe--claude/d1f69332-ec49-4508-9dba-227027eb2bd0.jsonl",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "TodoWrite",
+    "tool_input": {
+      "todos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "in_progress",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "pending",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ]
+    },
+    "tool_response": {
+      "oldTodos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "pending",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "pending",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ],
+      "newTodos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "in_progress",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "pending",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ]
+    }
+  },
+  {
+    "session_id": "d1f69332-ec49-4508-9dba-227027eb2bd0",
+    "transcript_path": "/Users/igorwaraxe/.claude/projects/-Users-igorwaraxe--claude/d1f69332-ec49-4508-9dba-227027eb2bd0.jsonl",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git reset",
+      "description": "Reset git staging area to unstage all files"
+    },
+    "tool_response": {
+      "stdout": "",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "d1f69332-ec49-4508-9dba-227027eb2bd0",
+    "transcript_path": "/Users/igorwaraxe/.claude/projects/-Users-igorwaraxe--claude/d1f69332-ec49-4508-9dba-227027eb2bd0.jsonl",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "TodoWrite",
+    "tool_input": {
+      "todos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "completed",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "in_progress",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ]
+    },
+    "tool_response": {
+      "oldTodos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "in_progress",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "pending",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ],
+      "newTodos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "completed",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "in_progress",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ]
+    }
+  },
+  {
+    "session_id": "d1f69332-ec49-4508-9dba-227027eb2bd0",
+    "transcript_path": "/Users/igorwaraxe/.claude/projects/-Users-igorwaraxe--claude/d1f69332-ec49-4508-9dba-227027eb2bd0.jsonl",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/Users/igorwaraxe/.claude/.gitignore"
+    },
+    "tool_response": {
+      "type": "text",
+      "file": {
+        "filePath": "/Users/igorwaraxe/.claude/.gitignore",
+        "content": "/ide\n/projects\n/statsig\n/todos\n\nClAUDE.md\ncourse-update-guide.md\njava-qa-course.md\nspring-ai-course.md\nspring-saas-personal.md\n",
+        "numLines": 11,
+        "startLine": 1,
+        "totalLines": 11
+      }
+    }
+  },
+  {
+    "session_id": "d1f69332-ec49-4508-9dba-227027eb2bd0",
+    "transcript_path": "/Users/igorwaraxe/.claude/projects/-Users-igorwaraxe--claude/d1f69332-ec49-4508-9dba-227027eb2bd0.jsonl",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "TodoWrite",
+    "tool_input": {
+      "todos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "completed",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "completed",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "in_progress",
+          "priority": "medium",
+          "id": "3"
+        }
+      ]
+    },
+    "tool_response": {
+      "oldTodos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "completed",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "in_progress",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "pending",
+          "priority": "medium",
+          "id": "3"
+        }
+      ],
+      "newTodos": [
+        {
+          "content": "Reset git staging area to remove all added files",
+          "status": "completed",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Check .gitignore file to understand what should be ignored",
+          "status": "completed",
+          "priority": "medium",
+          "id": "2"
+        },
+        {
+          "content": "Add only files that should be tracked according to .gitignore",
+          "status": "in_progress",
+          "priority": "medium",
+          "id": "3"
+        }
+      ]
+    }
+  }
+]
